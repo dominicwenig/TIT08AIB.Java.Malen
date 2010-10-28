@@ -24,7 +24,7 @@ public class Malen implements ActionListener, ItemListener, MouseMotionListener 
 
     static {
         color = new Color[]{Color.black, Color.red, Color.yellow, Color.green, Color.blue, Color.cyan, Color.magenta};
-        colorString = new String[]{"Schwarz", "Rot", "Gelb", "Grün", "Blau", "Cyan", "Magenta"};
+        colorString = new String[]{"Schwarz", "Rot", "Gelb", "Gruen", "Blau", "Cyan", "Magenta"};
         verbindung = new IVerbindung[]{new Strich(), new Doppelstrich(), new Rechteck(), new Kreis()};
     }
 
@@ -35,7 +35,7 @@ public class Malen implements ActionListener, ItemListener, MouseMotionListener 
     public void init() {
         JPanel menue = new JPanel();
 
-        loeschKnopf = new JButton("Löschen");
+        loeschKnopf = new JButton("Loeschen");
         loeschKnopf.addActionListener(this);
         loeschKnopf.setForeground(Color.black);
         loeschKnopf.setBackground(Color.lightGray);
